@@ -1,0 +1,95 @@
+body {
+  background-image: radial-gradient(#ffffff, #dfbbd9);
+  background-attachment: fixed;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.container {
+  background-color: rgba(168, 192, 255, 0.17);
+  width: 75ch;
+  margin-inline: auto;
+  margin-block: 2rem;
+  border-radius: 1rem;
+  padding: 0.5rem 2rem;
+  min-height: calc(100vh - 4rem);
+  box-sizing: border-box;
+  box-shadow: 0.5rem 0.5rem 0.5rem rgba(127, 127, 127, 0.5);
+}
+
+.cursuri {
+  font-size: 2rem;
+}
+
+.navigatie {
+  margin-block-end: 1rem;
+  display: flex;
+  justify-content: space-between;
+  font-size: 1rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+  align-items: center;
+}
+.navigatie ul {
+  list-style-type: none;
+  display: flex;
+  gap: 1.5rem;
+  margin-inline-end: 1rem;
+}
+
+.nav-item {
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  border-inline-end: 0.4em solid black;
+  padding: 0.75em 2em;
+  border-radius: 1em;
+}
+
+.nav-item.active {
+  background-color: #e694ff;
+}
+
+.frontend {
+  display: flex;
+}
+
+.developer {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 1rem;
+  color: rgb(39, 45, 56);
+  margin-block-end: 1.5rem;
+}
+
+.despre-domeniu {
+  color: rgb(39, 45, 56);
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+  font-size: 0.8rem;
+  line-height: 1.3;
+  margin: 0;
+}
+
+.btn {
+  background-color: #7c78c2;
+  color: white;
+  padding: 0.7rem 1rem;
+  border-radius: 0.9rem;
+  text-decoration: none;
+  font-size: 0.9rem;
+  display: inline-block;
+  margin-block-start: 1.5rem;
+}
+
+.logo img {
+  margin-inline-end: 2px;
+  height: 12rem;
+  border-radius: 100%;
+}
+
+.lorem {
+  box-sizing: border-box;
+  height: 10rem;
+  padding-inline: 1rem;
+  background: transparent;
+  margin-block: 0.5rem;
+  border: 0.1rem solid black;
+  font-size: 1rem;
+}
